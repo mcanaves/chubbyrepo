@@ -1,0 +1,9 @@
+# Core requirements
+attrs
+requests
+
+# Testing requirements
+flake8
+isort
+pytest
+pytest-cov
