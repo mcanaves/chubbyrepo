@@ -35,7 +35,7 @@ The following endpoints are currently supported:
 | Endpoint                                  | Description |
 | ----------------------------------------- | ----------- |
 | `/organizations/{org_name}/stats`         | Returns the number of repositories and the biggest repository of the given organization. |
-| `/chubbiest_repositories[?limit={n}]` |   | Returns the n-th biggest repositories. By default n is 10. |
+| `/chubbiest_repositories[?limit={n}]`     | Returns the n-th biggest repositories. By default n is 10. |
 
 ## Development
 To work on the Chubbyrepo codebase, you'll want to clone the repository, 
@@ -56,5 +56,5 @@ $ ./scripts/lint
 ### 0.1 Release
 * Initial release
 
-<p align="center"><i>Chubbyrepo is <a href="https://github.com/mcanaves/chubbyrepo/blob/master/LICENSE.md">BSD licensed</a> code.<br/>Designed & built in Pollença City.</i><br/>&mdash; :sunglasses: &mdash;</p>
+<p align="center"><i>Chubbyrepo is <a href="https://github.com/mcanaves/chubbyrepo/blob/master/LICENSE">BSD licensed</a> code.<br/>Designed & built in Pollença City.</i><br/>&mdash; :sunglasses: &mdash;</p>
 
