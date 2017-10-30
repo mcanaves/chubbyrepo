@@ -14,4 +14,4 @@ fi
 
 set -x
 
-PYTHONPATH=. ${PREFIX}pytest --ignore venv --cov=chubbyrepo --cov-report=term-missing ${EXTRA_COVERAGE_FLAGS} ${@}
+PYTHONPATH=. ${PREFIX}pytest --ignore venv --cov=chubbyrepo --cov=instance --cov-report=term-missing ${EXTRA_COVERAGE_FLAGS} ${@}

@@ -1,5 +1,6 @@
 # Core requirements
 attrs
+flask
 requests
 
 # Testing requirements
@@ -7,3 +8,4 @@ flake8
 isort
 pytest
 pytest-cov
+pytest-flask
